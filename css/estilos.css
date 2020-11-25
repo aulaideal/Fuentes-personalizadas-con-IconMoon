@@ -1,0 +1,67 @@
+
+/*--------------------------
+1. ESTILOS DISEÑO
+--------------------------*/
+html,body{
+    height: 100%;
+    font-size: 16px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #249ac0;
+    color: #fff;
+
+}
+.TituloPrincipal{
+    font-size: 3rem;   
+}
+
+.caracteristicas{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin:0;
+    
+}
+.caracteristicas li{
+    padding: 1rem;
+    text-align: center;
+}
+
+.ico {
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+}
+
+/* Variación de tamaño de iconos */
+
+.ico-2x {
+    font-size: 2em; }
+  
+  .ico-3x {
+    font-size: 3em; }
+  
+  .ico-4x {
+    font-size: 4em; }
+  
+  .ico-5x {
+    font-size: 5em; }
+  
+  .ico-6x {
+    font-size: 6em; }
+  
+  .ico-7x {
+    font-size: 7em; }
+  
+  .ico-8x {
+    font-size: 8em; }
+  
+  .ico-9x {
+    font-size: 9em; }
+  
+  .ico-10x {
+    font-size: 10em; }
